@@ -8,6 +8,10 @@ public class SuperHeroModel {
     private String mainSkill;
     private String phone;
 
+    public SuperHeroModel(){
+        
+    };
+
     public SuperHeroModel(String birthDate, String city, String fullName, String gender, String id, String mainSkill, String phone) {
         this.birthDate = birthDate;
         this.city = city;
